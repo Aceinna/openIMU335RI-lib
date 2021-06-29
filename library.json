@@ -1,0 +1,47 @@
+{
+	"name": "OpenIMU335-base-library",
+ 	"version": "1.1.13",
+ 	"description": "OpenIMU335 Base Library",
+    "keywords": "sensors, IMU, CG, automotive, navigation",
+ 	"repository":
+    {
+       "type": "git",
+       "url": "https://github.com/Aceinna/openIMU335-lib.git",
+       "branch": "master"
+    },
+	"build": {
+ 		"flags": [
+			"-L Sensors",
+			"-L Platform/Eeprom",
+			"-I Sensors/Core/include",
+			"-l libSensors.a",
+			"-l libEeprom.a",
+			"-I Sensors",
+			"-I Lib/Util/include",
+			"-I Lib/Serial/include",
+			"-I Lib/Algorithm",
+			"-I Lib/Algorithm/include",
+			"-I Lib/Math/include",
+			"-I Lib/CAN_J1939",
+			"-I Lib/CAN_J1939/include",
+			"-I Lib/Filter/include",
+			"-I Lib/BIT/include",
+			"-I Configuration/include",
+			"-I Configuration",
+			"-I Platform/CAN/include",
+			"-I Platform/Filter/include",
+			"-I Platform/Board/include",
+			"-I Platform/Core/include",
+			"-I Platform/Eeprom/include",
+			"-I Platform/Eeprom",
+			"-I Platform",
+			"-I CPU/STM32F405/include",
+			"-I CPU/STM32F405/CMSIS",
+			"-I CPU/STM32F405",
+ 			"-I RTOS",
+			"-I RTOS/Baremetal/include"
+		],
+		"libArchive": false,
+        "platforms": "aceinna_imu"
+ 	}
+ }

@@ -1,0 +1,18 @@
+{
+	"name": "Platform",
+ 	"version": "1.0.1",
+ 	"description": "OpenIMU335 Platform Library",
+ 	"build": {
+ 		"flags": [
+			"-I Board",
+			"-I Board/include",
+			"-I Eeprom",
+			"-I Eeprom/include",
+			"-I CAN",
+			"-I CAN/include",
+			"-I ."
+ 		],
+		"libArchive": false,
+		"platforms": "aceinna_imu"
+ 	}
+ }

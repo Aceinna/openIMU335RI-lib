@@ -1,0 +1,13 @@
+{
+	"name": "Configuration",
+ 	"version": "1.0.5",
+ 	"description": "OpenIMU335 Platform Library",
+ 	"build": {
+ 		"flags": [
+			"-I include",
+			"-I ."
+ 		],
+		"libArchive": false,
+		"platforms": "aceinna_imu"
+ 	}
+ }

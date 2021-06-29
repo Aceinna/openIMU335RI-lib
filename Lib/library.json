@@ -1,0 +1,24 @@
+{
+    "name": "Core Libraries",
+    "version": "2.0.1",
+    "description": "Algorithm, Math and CAN libraries",
+    "build": {
+        "flags": [
+            "-I Algorithm",
+            "-I Algorithm/include",
+            "-I BIT",
+            "-I BIT/include",
+            "-I CAN_J1939",
+            "-I CAN_J1939/include",
+            "-I Serial",
+            "-I Serial/include",
+            "-I Util",
+            "-I Util/include",
+            "-I Math",
+            "-I Math/include",
+            "-I Filter",
+            "-I Filter/include",
+            "-I ."
+ 		]
+ 	}
+ }
